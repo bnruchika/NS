@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+<title>Naadashankara</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+              <script src="allinone.js"></script>
+    <meta name="discription" content="Best Music Academy in Hassan, Karnataka. Learn Here.">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="images/LOGO.png">
+    <script src="jquery-3.2.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="allinone.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"><!--menu-->
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet"><!--quote-->
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet"><!--quote-->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet"><!--slide show tittle-->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet"><!--about and courses heading-->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"><!-- H1 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js" async></script>
+    
+</head>
+<body>
+                                 <!-- THE PRELOADER -->
+<div class="se-pre-con"></div>
+                                   
+<script>
+$(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+</script>
+                               
+
+                                  <!-- SLIDESHOW -->
+<script type="text/javascript">
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+
+    .next()
+
+    .end()
+    .appendTo('#slideshow');
+},  300);
+
+</script>
+<!--
+<div id="slideshow">
+
+  <div id="one" class="pic">
+    <span id="titi"><p>NAADASHANKARA</span><span  id="small">   |Music Academy</span></p>
+    <img id="logomain" src="images/NSmain.png"></img><br><br><br><br><br>
+  </div>
+
+  <div id="two"  class="pic">
+     <span id="titi"><p>NAADASHANKARA</span><span  id="small">   |Music Academy</span></p>
+     <img id="logomain" src="images/NSmain.png"></img><br><br><br><br><br>
+  </div>
+
+  <div id="three" class="pic">
+        <span  id="titi"><p>NAADASHANKARA</span><span  id="small">   |Music Academy</span></p>
+    <img id="logomain"  src="images/NSmain.png"></img><br><br><br><br><br>
+  </div>
+
+
+
+
+                                     <! the quote -->
+<div class="backsect0">
+<H1></H1>
+</div>
+                                                   
+<div class="backsect1">
+<div id="boxin" class="text-center" >
+  <h4><span id="welearn"> We Learn </span> <br> <span id="welearn">The</span> <span ID="art">ART</span> <span id="welearn">Of <br>Thinking With</span><br> <span id="sounds">SOUNDS</span></h4><br>
+</div>
+</div>
+ 
+                              <!-- SLIDE NAV  -->
+<div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style= "outline:0";>&times;</a>
+<div class="conta-nav" id="icon" onclick="openNav()">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+
+            <ul>
+                <li ><a onclick="closeNav()" href="#subsection0">ABOUT</a></li>
+                <li><a onclick="closeNav()" href="#subsection1">COURSES</a></li>
+                <li><a onclick="closeNav()" href="#subsection2">EVENTS</a></li>
+                <li><a onclick="closeNav()" href="#grid">GALLERY</a></li>
+                <li><a onclick="closeNav()" href="#map-container">CONTACT</a></li>
+            </ul>
+
+    <div class="soc">
+      <h3>Connect With Us</h3>
+<a id="fb" class="s" target="_blank" href="https://www.facebook.com/groups/378810862273429/"><img src="images/Facebook.png" width="50" height="50"></a><br><br>
+<a id="yb" class="s" target="_blank" href="https://www.youtube.com/channel/UC0ZLdPrAqCaRt0W0b7-ZFYg"><img src="images/YouTube.png" width="50" height="50"></a>
+    </div>
+  </div>
+
+   <script>
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});﻿
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+     }
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+
+}
+</script>
+ <style>
+/*.bgimage{
+background-image: url('images/icons8-Music Conductor-100.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+.bgimage1{
+  background-image: url('images/icons8-Thumbs Up-100.png');
+  background-repeat: no-repeat;
+background-position: center;
+}
+.bgimage2{
+  background-image: url('images/icons8-Medal-100.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 30px;
+}*/
+</style>                                             <!-- section0  ABOUT-->                
+<div class="container">
+ <H1 id="h"> ABOUT US </H1>
+ 
+<div class="row">
+ <div class="col-md-4">
+  <img src="images/icons8-Music Conductor-100.png">
+    <h3>Teaching Environment</h3>
+    <p class="wow slideInUp" data-wow-delay="0.1s" class="lead">Naadashankara Music Academy is Hassan's only fully equiped music school for anyone.Here at NS, we believe in making a student comletely ready as a real world musician.
+    We adapt best and easy techniques ensuring the teaching process to be fun. Unlike any other music schools,
+    NS is for anyone who wants to explore the beauty of music irrespective of age! 
+    </p>
+</div>
+<div class="col-md-4">
+  <img src="images/icons8-Thumbs Up-100.png">
+    <h3>Performance</h3>
+    <p class="wow slideInUp" data-wow-delay="0.1s" class="lead">We value and encourage every little idea of a student which empowers the overall performance.
+    Stage shows, concerts, grade examinations are always held which evaluates the performance.
+    A keen and individual observation helping in reinforcment of a unique and creative talent within a learner.
+    </p>
+</div>
+<div class="col-md-4">
+<img src="images/icons8-Medal-100.png">
+    <h3>Certified</h3>
+    <p class="wow slideInUp" data-wow-delay="0.1s" class="lead">Naadashankara Music Academy is certified as an affiliate franchise to the <i>CHENNAI MUSIC ACADEMY</i>.<br>
+    And recognised by the <i>National Centre for the Performing Arts, Mumbai</i></p>
+</div>
+</div>
+</div>
+<style>
+
+ background-color: transparent !important;
+    color: #fff;
+    opacity: 0.5;
+</style>
+
+
+
+<style>
+#underline{
+  
+  max-width: 100%;
+  border-width: 1px;
+  border-color: white;
+  margin: 30px 30px;
+  visibility: visible;
+  margin-bottom: 20px;
+  position: fixed;
+  border-style: solid;
+}
+.row h3{
+  color: #4b92b0;
+font-family: 'Bree Serif', serif;
+font-weight:;
+}
+.container h1{
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+}
+</style>
+
+
+<div class="container" id="backsect3" >
+<div class="row">
+  <div class="col-md-6 col-sm-6">
+ <img class="wow fadeInLeft" style="" data-wow-offset="10" data-wow-delay="0.1s" src="">
+ </div>
+  
+<div class="col-md-4"> 
+<H1 id="h" style=" font-size:300%; padding-top:0;">Our Mentor</H1>
+<H2 id="h">Nagesh Bharadwaj</H2>
+<p class="wow fadeInDownBig" data-wow-delay="0.2s" style="color:white;">
+ssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssss
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssss
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssss
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssss
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+ssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssss
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+</p>
+</div>
+</div>
+</div>
+<style>
+#h{
+  color: white;
+}
+</style>
+
+ 
+                       <!-- courses --> 
+<div class="container">
+ <H1 id="h"> COURSES</H1>
+ 
+<div class="row" id="courses">
+  <div class="col-md-4" id="cor">
+       <img src="images/icons8-Guitar-100 (1).png">
+       <h3>Guitar</h3>
+       <P class="wow slideInUp" data-wow-offset="10" data-wow-delay="0.2s">Indian Contemporary(Popular) music.<br>
+        Westren Style.</P>
+  </div>
+  <div class="col-md-4" id="cor">
+       <img src="images/icons8-Piano-100.png">
+       <h3>Keyboard</h3>
+       <p class="wow slideInUp" data-wow-offset="10" data-wow-delay="0.2s"> Indian Contemporary(Popular) music.<br>
+        Westren Style.</P>
+  </div>
+  <div class="col-md-4" id="cor">
+       <img src="images/icons8-Drum Set-100.png">
+       <h3>Drums</h3>
+       <P class="wow slideInUp" data-wow-offset="10" data-wow-delay="0.2s">Trinity drums kit graded syllabus. London.<br>
+        Indian Contemporary (Popular) music.</P>
+   </div>
+</div>
+</div>                     
+  <style>
+u{
+  width: 5px;
+  height: 5px;
+  padding: 16px;
+}
+  </style>                             
+
+                                         <!-- events  -->
+<div class="container" id="backsect5">
+<div class="row">
+  <H2>EVENTS</H2>
+  <H1 id="events">Naada Sambrama</H1>
+</div>
+</div>
+<style>
+#events{
+  font-size: 60px;
+  color: white;
+}
+@media screen and (min-width: 350px) and (max-width: 760px){
+  #events{
+    font-size: 35px;
+  }
+}
+</style>
+
+
+                                          <!-- gallery  -->
+
+<div class="containerg"><h2>NS4</h2>
+  <div id="main">
+    <ul class="grid effect-2" id="grid">
+        <li><a href="images/DSC_0096.jpg"><img src="images/DSC_0096.jpg"></a></li>
+        <li><a href="images/CSC_0118.jpg"><img src="images/CSC_0118.jpg"></a></li><br><br><br>
+        <li><a href=""><img src="images/DSC_0138.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0143.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0145.JPEG"></a></li>
+        <li><a href=""><img src="images/DSC_0229.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0289.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0182.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0185.JPG"></a></li>
+        <li><a href=""><img src="images/IMG-20151128-WA0027.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0168.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0191.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0320.jpg"></a></li>
+        <li><a href=""><img src="images/DSC_0189.JPG"></a></li>
+        <li><a href=""><img src="images/IMG-20161012-WA0009.jpg"></a></li>
+
+    </ul>
+       
+</div>
+</div>
+
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/AnimOnScroll.js"></script>
+    <script>
+      new AnimOnScroll( document.getElementById( 'grid' ), {
+        minDuration : 0.2,
+        maxDuration : 0.7,
+        viewportFactor : 0.2
+      } );
+</script>
+
+                                <!-- MAP -->
+<div id="map-container">
+  <h1>FIND US HERE </h1>
+<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.250098190988!2d76.10648654994263!3d13.019739217298921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba5485100000001%3A0x78c1dc941f51f437!2sNethaji+Public+School!5e0!3m2!1sen!2sin!4v1498653727419" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<script>
+$('#map-container')
+  .click(function(){
+      $(this).find('iframe').addClass('clicked')})
+  .mouseleave(function(){
+      $(this).find('iframe').removeClass('clicked')});
+</script>
+
+<div id='myContainer'></div>
+
+
+<footer style="height:40px;">
+<a target="_top" href="mailto:bnruchika2011@gmail.com"> Mail me !!</a>
+</footer>
+
+<script src="js/modernizr.custom.js" async></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
